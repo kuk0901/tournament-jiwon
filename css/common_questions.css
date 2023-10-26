@@ -1,0 +1,38 @@
+body {
+  position: relative;
+}
+.title {
+  padding: 25px;
+}
+.text {
+  height: 150px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  /* text-shadow: 0 4px 20px #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.text.text-reset {
+  font-size: 45px;
+}
+.btn {
+  padding: 10px;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+.description {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.description a {
+  color: #fff;
+  text-decoration: none;
+}
+.description a:hover {
+  text-decoration: underline;
+}
