@@ -1,18 +1,28 @@
 .title {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 600;
 }
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+@media (max-width: 1000px) {
+  .title {
+    font-size: 40px;
+  }
+}
 .section .section-content {
   width: 450px;
   --content-height: 600px;
-  margin: 30px;
+  margin: 20px auto 30px;
   border: 3px solid #fff;
   display: flex;
+}
+@media (max-width: 1000px) {
+  .section .section-content {
+    margin: 40px auto;
+  }
 }
 .section .section-content .container .result-picture {
   width: 450px;
