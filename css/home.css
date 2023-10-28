@@ -2,14 +2,14 @@
   .title {
     height: 60px;
     font-size: 50px;
-    padding: 40px;
+    padding: 20px;
   }
 }
 @media (max-width: 740px) {
   .title {
-    height: 60px;
-    font-size: 50px;
-    padding: 55px;
+    height: 50px;
+    font-size: 35px;
+    padding: 30px;
   }
 }
 
@@ -33,21 +33,22 @@
   .content {
     max-width: 660px;
     max-height: 434px;
-    margin: 40px auto;
+    margin: 30px auto;
   }
   .text {
     font-size: 27px;
+    margin: auto;
   }
 }
 
 @media (max-width: 740px) {
   .content {
     max-width: 400px;
-    max-height: 200px;
-    margin: 40px auto;
-    padding: 0 20px;
+    max-height: 300px;
+    margin: 20px auto;
   }
   .text {
-    font-size: 25px;
+    font-size: 20px;
+    margin: auto;
   }
 }
