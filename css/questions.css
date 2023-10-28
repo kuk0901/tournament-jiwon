@@ -22,6 +22,7 @@
   height: calc(var(--content-height) - 30px);
   background-size: 410px 100%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .section .container .sub-title {
   height: 30px;
@@ -64,13 +65,13 @@
 
 @media (max-width: 740px) {
   .section .section-content {
-    --content-width: 220px;
-    --content-height: 400px;
+    --content-width: 300px;
+    --content-height: 300px;
     margin: 30px auto 45px;
   }
   .section .container .first,
   .section .container .second {
-    width: 220px;
+    width: 154px;
     height: calc(var(--content-height) - 30px);
     background-size: 220px 100%;
   }
