@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #000;
   color: #fff;
@@ -7,6 +7,8 @@ body {
   line-height: 1.4;
   box-sizing: border-box;
   position: relative;
+  word-break: keep-all;
+  background-position: center;
 }
 .title {
   font-size: 60px;
@@ -86,8 +88,9 @@ body {
   }
 }
 .description {
+  font-size: 10px;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 .description a {

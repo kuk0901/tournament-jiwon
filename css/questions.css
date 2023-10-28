@@ -33,14 +33,14 @@
 }
 .section .container .first,
 .section .container-a .sub-title {
-  border-right: 3px solid #fff;
+  border-right: 1px solid #fff;
 }
 .section .container .second,
 .section .container-b .sub-title {
-  border-left: 3px solid #fff;
+  border-left: 1px solid #fff;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 1000px) {
   .section .section-content {
     --content-width: 600px;
     --content-height: 500px;
@@ -54,10 +54,32 @@
   }
   .section .container .first,
   .section .container-a .sub-title {
-    border-right: none;
+    border-right: 1px solid #fff;
   }
   .section .container .second,
   .section .container-b .sub-title {
-    border-left: none;
+    border-left: 1px solid #fff;
+  }
+}
+
+@media (max-width: 740px) {
+  .section .section-content {
+    --content-width: 220px;
+    --content-height: 400px;
+    margin: 30px auto 45px;
+  }
+  .section .container .first,
+  .section .container .second {
+    width: 220px;
+    height: calc(var(--content-height) - 30px);
+    background-size: 220px 100%;
+  }
+  .section .container .first,
+  .section .container-a .sub-title {
+    border-right: 1px solid #fff;
+  }
+  .section .container .second,
+  .section .container-b .sub-title {
+    border-left: 1px solid #fff;
   }
 }
