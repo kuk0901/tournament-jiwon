@@ -93,23 +93,24 @@ body {
 }
 @media (max-width: 1000px) {
   .btn {
-    max-width: 130px;
+    max-width: 110px;
     height: 60px;
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 700;
     line-height: 1.3;
     margin: 15px auto;
+    border-radius: 15px;
   }
 }
 @media (max-width: 740px) {
   .btn {
-    max-width: 110px;
-    height: 40px;
-    font-size: 20px;
+    max-width: 90px;
+    height: 45px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 1.3;
     margin: 15px auto;
-    border-radius: 12px;
+    border-radius: 10px;
   }
 }
 .description {
